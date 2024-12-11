@@ -1,0 +1,26 @@
+/* Write your code here: */
+
+h1,
+h2 {
+  color: blueviolet;
+}
+
+/* direct child selector */
+div > p {
+  color: red;
+}
+
+/* decendent li of div class box */
+.box li {
+  color: blue;
+}
+
+/* chainning selectors */
+li.done {
+  color: aqua;
+}
+
+/* combining multiple selectors combiners */
+ul p.done {
+  font-size: 0.5rem;
+}
